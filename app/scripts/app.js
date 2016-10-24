@@ -18,15 +18,20 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      /*.when('/about', {
-        templateUrl: 'views/mobile.html',
-        controller: 'MobilecontrollerCtrl',
-        controllerAs: 'mobilecontroller'
-      })*/
+      .when('/appliance', {
+        templateUrl: 'views/appliance.html',
+        controller: 'ApplianccontrollerCtrl',
+        controllerAs: 'appliancectrl'
+      })
 		.when('/mobile', {
         templateUrl: 'views/mobile.html',
         controller: 'MobilecontrollerCtrl',
         controllerAs: 'mobilecontroller'
+      })
+	.when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
       })
       .otherwise({
         redirectTo: '/'

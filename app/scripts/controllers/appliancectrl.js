@@ -8,8 +8,8 @@
  * Controller of the youseApp
  */
 angular.module('yoappApp')
-  .controller('MobilecontrollerCtrl', function ($scope, mobilefactory) {
-	var promise = mobilefactory.callserver();
+  .controller('ApplianccontrollerCtrl', function ($scope, appliancefactory) {
+	var promise = appliancefactory.callserver();
 
         promise.then(function (data) {
             $scope.result = data;
@@ -25,23 +25,5 @@ angular.module('yoappApp')
             console.log("Total ", total);
             $rootScope.totalPrice = total;
         }*/
-		
 
-});
-angular.module('yoappApp')
-.filter('unique', function() {
-  return function(collection, keyname) {
-    var output = [], 
-        keys = [];
-
-    angular.forEach(collection, function(item) {
-      var key = item[keyname];
-      if(keys.indexOf(key) === -1) {
-        keys.push(key);
-        output.push(item);
-      }
-    });
-
-    return output;
-  };
 });

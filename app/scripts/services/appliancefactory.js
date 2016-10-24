@@ -8,7 +8,7 @@
  * Factory in the youseApp.
  */
 angular.module('yoappApp')
-  .factory('mobilefactory', function ($http, $q) {
+  .factory('appliancefactory', function ($http, $q) {
     var obj={
 		callserver: function(){
 			var defer =$q.defer();
@@ -20,7 +20,7 @@ angular.module('yoappApp')
 			{
 				defer.reject(data);
 			}
-			$http.get('server/common.json').then(success, error);
+			$http.get('server/electronices.json').then(success, error);
 			return defer.promise;
 		}
 		

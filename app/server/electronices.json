@@ -1,0 +1,36 @@
+[{
+        "name": "Siemens WM14Q361GB 8kg Washing Machine",
+        "price": 40000,
+        "Description": "good",
+		"Key":["Special Feature: iQdrive Motor", "Efficiency Rating: A+++", "Spin Speed: 1400 RPM", "Controls: Touch", "Drum Capacity: 8 KG"],
+        "image": "../images/Siemens WM14Q361GB 8kg Washing Machine.jpg",
+        "quantity": 2
+},
+    {
+        "name": "Neff K8315X0 Integrated Larder Fridge",
+        "price": 40000,
+        "Description": "v good",
+        "Key":["Efficiency Rating: A ++", "Controls: Electronic", "Special Feature: SuperCool", "Display: LED", "Keep Fresh Box: VitaFresh"],
+		"image": "../images/freeze.jpg",
+        "quantity": 2
+
+    },
+ 	{
+        "name": "Neff S51E50X3GB Dishwasher",
+        "price": 18000,
+        "Description": "Good",
+		"Key":["Efficiency Rating: A++", "Controls: Push Buttons", "Place anywhere", "Display: LED", "Model No. S51E50X3GB"],
+        "image": "../images/Neff S51E50X3GB Dishwasher.jpeg",
+        "quantity": 2
+
+    },
+ 	{
+        "name": "Neff C17KS61N0 Bean to Cup Coffee Centre",
+        "price": 40000,
+        "Description": "v good",
+		"Key":["Special Feature: AromaDoubleShot", "Colour: Stainless Steel", "Display: TFT", "Water Tank: 2.4 Litres", "Bean Container: 500 Grams","Best Quality"],
+        "image": "../images/Neff C17KS61N0 Bean to Cup Coffee Centre.jpg",
+        "quantity": 2
+
+    }
+        ]

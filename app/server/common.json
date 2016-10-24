@@ -1,0 +1,79 @@
+{"moblies": [{
+        "name": "Samsung Galaxy A9",
+        "price": 24500,
+        "Description": "good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/samsung-galaxy-a9-pro-sm-a910fzddins-original-imaempncfxz7jqec.jpeg.jpg",
+        "quantity": 2,
+		"brandname":"Samsung"
+},
+    {
+        "name": "Samsung Galaxy J2",
+        "price": 40000,
+        "Description": "v good",
+        "Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+		"image": "../images/samsung-galaxy-j2-dual-sim-gold-j200g-original-imaebfn9bpcgzaxa.jpeg.jpg",
+        "quantity": 2,
+		"brandname":"Samsung"
+
+    },
+ 	{
+        "name": "Samsung Galaxy On NXT",
+        "price": 18000,
+        "Description": "Good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/samsung-galaxy-on-nxt.jpeg",
+        "quantity": 2,
+		"brandname":"Samsung"
+
+    },
+ 	{
+        "name": "Apple Samsung Galaxy On7 ",
+        "price": 40000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/samsung-galaxy-on7.jpeg",		
+        "quantity": 2,
+		"brandname":"Apple"
+    }
+        ], 
+ 		"offers":["EMI Option","Special Gift","Exchange offer"],
+"electronices": [{
+        "name": "Siemens WM14Q361GB 8kg Washing Machine",
+        "price": 40000,
+        "Description": "good",
+		"Key":["Special Feature: iQdrive Motor", "Efficiency Rating: A+++", "Spin Speed: 1400 RPM", "Controls: Touch", "Drum Capacity: 8 KG"],
+        "image": "../images/Siemens WM14Q361GB 8kg Washing Machine.jpg",
+        "quantity": 2,
+		"brandname":"Siemens"
+},
+    {
+        "name": "Neff K8315X0 Integrated Larder Fridge",
+        "price": 40000,
+        "Description": "v good",
+		"Key":["Efficiency Rating: A ++", "Controls: Electronic", "Special Feature: SuperCool", "Display: LED", "Keep Fresh Box: VitaFresh"],
+		"image": "../images/Neff K8315X0 Integrated Larder Fridge.jpg",
+        "quantity": 2,
+		"brandname":"Neff"
+
+    },
+ 	{
+        "name": "Neff S51E50X3GB Dishwasher",
+        "price": 18000,
+        "Description": "Good",
+		"Key":["Efficiency Rating: A++", "Controls: Push Buttons", "Place anywhere", "Display: LED", "Model No. S51E50X3GB"],
+        "image": "../images/Neff S51E50X3GB Dishwasher.jpeg",
+        "quantity": 2,
+		"brandname":"Neff"
+    },
+ 	{
+        "name": "Neff C17KS61N0 Bean to Cup Coffee Centre",
+        "price": 40000,
+        "Description": "v good",
+		"Key":["Special Feature: AromaDoubleShot", "Colour: Stainless Steel", "Display: TFT", "Water Tank: 2.4 Litres", "Bean Container: 500 Grams"],
+        "image": "../images/Neff C17KS61N0 Bean to Cup Coffee Centre.jpg",
+        "quantity": 2,
+		"brandname":"Neff"
+		}]
+        
+}

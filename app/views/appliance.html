@@ -1,0 +1,80 @@
+ <div class="row">
+                    <div class="col-lg-12">
+  <div class="container"style="margin: 0;">
+   <div id="content">
+    <main class="main">
+         <div class="aouthor-contant">
+         	<div>
+         		<h2 class="_2Wy-am">APPLIANCES</h2>
+         	</div>
+         	<span class="_1No1qI">
+         		<span>
+         			Sort By
+         		</span>
+         	</span>
+         		<ul class="_3fPYHw">
+         			<li class="_2Ylh8t _3q0Dpv" ng-click="sortBy('name')">Popularity</li>
+         			<li class="_2Ylh8t _3q0Dpv" ng-click="type = 'price'; reverse = !reverse">Price-- High To Low</li>
+         			<li class="_2Ylh8t _3q0Dpv" ng-click="type = 'price'; reverse = !reverse">Price-- Low To High</li>
+         			
+         		</ul>
+         	
+         </div>
+          <div class="aouthor-contant" ng-repeat="e_products in result.data|filter:searchname|filter:namesearch |orderBy:type:reverse">
+               	          <!--<div class="aouthor-contant" ng-repeat="mobile in result.data.|filter:searchname|filter:namesearch |orderBy:type:reverse">-->
+
+              <a href="#">
+              <div  id="omg2"class="div1">
+              	<img  ng-src='{{e_products.image}}' alt="{{e_products.name}}" title="{{e_products.name}}">
+              </div>
+              <div class="div1 col classmargin3">
+              	<h3>{{e_products.name}}</h3>
+              	<table width="750px" class="tablestyle">
+				<tr ng-repeat="keyfeatur in e_products.Key">
+				<td class="_1ZRRx1">{{keyfeatur}}
+				</td></tr>
+			</table>
+              </div>
+              <div class="div1 col classmargin4">
+              	<h3>Rs. {{e_products.price}}</h3>
+              	<table width="750px" class="tablestyle">
+				<tr><td class="_1ZRRx1">EMI Available</td></tr>
+				<tr><td class="_1ZRRx1">Exchange Offer</td></tr>
+				<tr><td class="_1ZRRx1">Special Offer</td></tr>
+			</table>
+              </div>
+               <!--<div class="change1">
+              <input ng-model="quantity" type="number" ng-init="quantity=0" placeholder="Quantity" min="0" max="{{mobile.quantity}}"></div>-->
+              </a>
+ <p class="ptag"><a href="#" class="btn btn-primary colin" role="button">BUY NOW</a><a href="#" class="btn btn-primary colin" role="button">ADD TO CART</a> </p>
+              
+          </div>
+    </main>
+        <aside class="sidebar">
+            <div class="sidebar_content">
+            	<h3>Brands</h3>
+            	<ul>
+            		<li>kelvinater</li>
+            		<li>Samsung</li>
+            		<li>whirpool</li>
+            		<li>Honer</li>
+            		<li>Karboon</li>
+            		<li>Lava</li>
+            		<li>Lyf</li>
+            	</ul>
+            </div>
+            <div class="sidebar_content">
+            	<!--<h3>Filters</h3>
+            	<ul>
+            		<li><input type="checkbox" ng-click="type = 'name'; reverse = Samsung">Apple</li>
+            		<li><input type="checkbox">Samsung</li>
+            		<li><input type="checkbox">Micromax</li>
+            		<li><input type="checkbox">Honer</li>
+            		<li><input type="checkbox">Karboon</li>
+            		<li><input type="checkbox">Lava</li>
+            		<li><input type="checkbox">Lyf</li>
+            	</ul>-->
+            </div>
+        </aside>
+   </div>
+   </div>

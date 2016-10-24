@@ -5,7 +5,7 @@
     <title> ONLINE SHOPPING CART : MY CART</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-     <link rel="shortcut icon" type="image/icon" href="../app/images/logo.jpg"/>
+     <link rel="shortcut icon" type="image/icon" href="images/logo.jpg"/>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -19,7 +19,8 @@
     <!--<script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>-->
   </head>
-  <body ng-app="yoappApp">
+  <body ng-app="yoappApp" >
+   
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -29,7 +30,8 @@
       <div class="navbar navbar-default" role="navigation">
         
         <div class="container">
-          <div class="navbar-header imagesize">
+         
+          <div class="navbar-header">
            
 
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
@@ -38,24 +40,25 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-<!--<a class="navbar-brand logo" href="index.html"></a>-->
-            <a id="icon" class="navbar-brand" href="#/">MY<br><br>CART <!--<img src="../app/images/logo.jpg"  alt="">--></a>
+<a class="navbar-brand logo" href="index.html"></a>
+            <a id="icon" class="navbar-brand" href="#/">MY<br><img class="omg" src="images/logo.jpg"  alt="logo"><br>CART</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
-            <ul  id="list" class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/mobile">Mobile</a></li>
+             <div class="search">
+    <div class="input-group ">
+        <input type="text" ng-model="namesearch"  class="form-control" placeholder="Search Products " aria-describedby="basic-addon2">
+        <span class="input-group-addon btn btn-default" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></span>
+    </div>
+    
+</div>
+         <ul  id="list" class="nav navbar-nav">
+              <li><a href="#/">Home</a></li>
+              <li><a ng-href="#/about">About Us</a></li>
               <li><a ng-href="#/">Track Order</a></li>
               <li><a ng-href="#/about">Login</a></li>
               <li><a ng-href="#/">SignUP!</a></li>
             </ul>
-             <div class="search">
-    <div class="input-group ">
-        <input type="text" class="form-control" placeholder="Search Products " aria-describedby="basic-addon2">
-        <span class="input-group-addon btn btn-default" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></span>
-    </div>
-</div>
           </div>
         </div>
         <div  id="div1" class="btn-group">
@@ -63,7 +66,7 @@
       ELECTRONICS<span class="caret"></span>
   </button>
                  <ul class="dropdown-menu">
-                    <li><a href="views/mobile.html">Mobiles</a></li>
+                    <li><a ng-href="#/mobile">Mobiles</a></li>
                     <li><a href="http://getbootstrap.com/examples/carousel/#">Mobile Accessories</a></li>
                     <li><a href="http://getbootstrap.com/examples/carousel/#">SmartWatches & Wearables</a></li>
                     <li role="separator" class="divider"></li>
@@ -112,7 +115,7 @@
     APPLIANCES <span class="caret"></span>
   </button>
                  <ul class="dropdown-menu">
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Action</a></li>
+                    <li><a  ng-href="#/appliance">All appliances</a></li>
                     <li><a href="http://getbootstrap.com/examples/carousel/#">Another action</a></li>
                     <li><a href="http://getbootstrap.com/examples/carousel/#">Something else here</a></li>
                     <li role="separator" class="divider"></li>
@@ -142,21 +145,16 @@
                  
 			</div>
     
-     
-      
-       
-        
-         
-          
-           
-            
-              
 </div>
  </div>
+ 
+ 
+ 
  <div ng-view="">
-    	
-    	
+ 	          
+  	          <div class="aouthor-contant" ng-repeat="mobile in result.data.moblies|filter:searchname|filter:namesearch |orderBy:type:reverse">	
     </div>
+	  </div>
 
     <div class="footer">
      
@@ -172,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <!--<p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>-->
+       
      
     </div>
 
@@ -192,6 +190,7 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <!-- endbower -->
@@ -200,7 +199,14 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
+	  <script src="scripts/controllers/about.js"></script>
+     <script src="scripts/controllers/mobilecontroller.js"></script>
+       <script src="scripts/services/mobilefactory.js"></script>   
+       <script src="scripts/controllers/appliancectrl.js"></script>
+       <script src="scripts/services/appliancefactory.js"></script>       
+           
+       
+
         <!-- endbuild -->
 </body>
 </html>

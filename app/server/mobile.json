@@ -1,0 +1,42 @@
+{"moblies": [{
+        "name": "Samsung Galaxy A9",
+        "price": 24500,
+        "Description": "good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/samsung-galaxy-a9-pro-sm-a910fzddins-original-imaempncfxz7jqec.jpeg.jpg",
+        "quantity": 2,
+		"brandname":"MOTO"
+},
+    {
+        "name": "Samsung Galaxy J2",
+        "price": 40000,
+        "Description": "v good",
+        "Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+		"image": "../images/samsung-galaxy-j2-dual-sim-gold-j200g-original-imaebfn9bpcgzaxa.jpeg.jpg",
+        "quantity": 2,
+		"brandname":"Samsung"
+
+    },
+ 	{
+        "name": "Samsung Galaxy On NXT",
+        "price": 18000,
+        "Description": "Good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/samsung-galaxy-on-nxt.jpeg",
+        "quantity": 2,
+		"brandname":"Samsung"
+
+    },
+ 	{
+        "name": "Apple Samsung Galaxy On7 ",
+        "price": 40000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/samsung-galaxy-on7.jpeg",		
+        "quantity": 2,
+		"brandname":"Apple"
+
+    }
+        ], 
+ 		"offers":["EMI Option","Special Gift","Exchange offer"]
+}
