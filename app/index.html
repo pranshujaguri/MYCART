@@ -152,7 +152,7 @@
  
  <div ng-view="">
  	          
-  	          <div class="aouthor-contant" ng-repeat="mobile in result.data.moblies|filter:searchname|filter:namesearch |orderBy:type:reverse">	
+  	          <div class="aouthor-contant" ng-repeat="mobile in result.data.moblies|filter:searchname|filter:namesearch|orderBy:type:reverse">	
     </div>
 	  </div>
 
@@ -190,7 +190,6 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <!-- endbower -->

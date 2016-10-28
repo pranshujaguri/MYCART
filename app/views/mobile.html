@@ -1,4 +1,8 @@
- <div class="row">
+<div  class="container">
+          <div class="row">
+          
+           <div class="row">
+                <div class="col-lg-12">
            <div class="col-sm-6">
                     <div class="col-lg-12">
   <div id="content">
@@ -6,10 +10,9 @@
             <div class="sidebar_content">
             	<h3>Brands</h3>
             	<ul ng-repeat="brandname in result.data.moblies | unique:'brandname'">
-            		<li>{{brandname.brandname}}</li>
+					<li>{{brandname.brandname}}</li>
             	</ul>
-            </div>
-                        
+            </div>   
         </aside>
         <main class="main">
          <div class="aouthor-contant">
@@ -27,14 +30,12 @@
          			<li class="_2Ylh8t _3q0Dpv" ng-click="type = 'price'; reverse = !reverse">Price-- Low To High</li>
          			
          		</ul>
-         		
-         		<ul class="update">
+           		<ul class="update">
             		
             		<!--<li><input type="text" ng-model="searchname" placeholder="Search Brand Here.."></li>-->
             		
             	</ul>
-         	
-         </div>
+         	</div>
           <div class="aouthor-contant" ng-repeat="mobile in result.data.moblies|filter:searchname|filter:namesearch |orderBy:type:reverse">
               <a href="#">
               <div class="div1">
@@ -47,7 +48,6 @@
 				<td class="_1ZRRx1">{{keyfeatur}}
 				</td>
 				</tr>
-				
 			</table>
               </div>
               <div class="div1 col classmargin2">
@@ -61,14 +61,14 @@
               <input ng-model="quantity" type="number" ng-init="quantity=0" placeholder="Quantity" min="0" max="{{mobile.quantity}}"></div>-->
  
               </a>
-              
               <p class="ptag"><a href="#" class="btn btn-primary colin" role="button">BUY NOW</a><a href="#" class="btn btn-primary colin" role="button" ng-click="totalPrice(mobile.price*quantity)">ADD TO CART</a> </p>
-              
-          </div>
-    </main>
+			</div>
+       </main>
         </div>
    </div>
 	 </div>
 </div>
-
+			  </div>
+	</div>
+</div>
 

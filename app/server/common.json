@@ -28,11 +28,56 @@
 
     },
  	{
-        "name": "Apple Samsung Galaxy On7 ",
+        "name": "Apple iPhon 6 ",
         "price": 40000,
         "Description": "v good",
 		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
-        "image": "../images/samsung-galaxy-on7.jpeg",		
+        "image": "../images/download (1).jpg",		
+        "quantity": 2,
+		"brandname":"Apple"
+    },
+			 {
+        "name": "Apple iPhon SE ",
+        "price": 50000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/iphon6se.jpg",		
+        "quantity": 2,
+		"brandname":"Apple"
+    },
+{
+        "name": "Apple iPhon 6S ",
+        "price": 45000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/iphon6s2.jpg",		
+        "quantity": 2,
+		"brandname":"Apple"
+    },
+   {
+        "name": "Apple iPhon 6S Plus ",
+        "price": 48000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/iphon6splus.jpg",		
+        "quantity": 2,
+		"brandname":"Apple"
+    },
+{
+        "name": "Apple iPhon 7 ",
+        "price": 55000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/iphon7.jpg",		
+        "quantity": 2,
+		"brandname":"Apple"
+    },
+     {
+        "name": "Apple iPhon 7 Plus ",
+        "price": 60000,
+        "Description": "v good",
+		"Key":["1.5 GB RAM | 8 GB ROM | Expandable Upto 128 GB", "5 inch HD Display", "8MP Primary Camera | 5MP Front", "2600 mAh Li-Ion Battery", "Exynos 3475 Processor", "1 Year for Mobile & 6 Months for Accessories"],
+        "image": "../images/iphon7plus.jpg",		
         "quantity": 2,
 		"brandname":"Apple"
     }
